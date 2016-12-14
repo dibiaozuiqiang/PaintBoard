@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context="com.example.roundprogressbar.FindPc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@mipmap/navbar2x"
+                android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pc_title"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/wtext"
+        android:layout_toRightOf="@+id/main_back"
+        android:layout_marginLeft="5dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/main_back"
+        android:src="@mipmap/back_p2x"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/findpc_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="1/4"
+                android:textColor="#ff0000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                 <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pc_text1"
+                    android:textSize="23sp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/textshape"
+                    />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="下一页"-->
+        <!--android:id="@+id/nextP"-->
+        <!--android:background="@drawable/shape"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignRight="@+id/webView"-->
+        <!--android:layout_alignEnd="@+id/webView"-->
+        <!--android:layout_marginBottom="33dp" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="上一页"-->
+        <!--android:id="@+id/lastP"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_alignTop="@+id/nextP"-->
+        <!--android:background="@drawable/shape"-->
+        <!--android:layout_toLeftOf="@+id/nextP"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_centerHorizontal="true" />-->
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

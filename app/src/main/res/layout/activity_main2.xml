@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom_progress="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+      >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@mipmap/navbar2x"
+                android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/xl_back"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/back_p2x"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/xl_title"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/xl_back"
+            android:textColor="@color/wtext"
+            android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/xl_set"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/seting"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/xl_rt"
+            android:layout_centerHorizontal="true"/>
+        <com.example.roundprogressbar.TimerTextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/timer_text_view"
+            android:textSize="21sp"
+            android:textColor="#ff0000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:text="00:00"
+            />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/cs_text"
+                android:text="00"
+                android:textSize="21sp"
+                android:textColor="#ff0000"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/sycs"
+                />
+            <TextView
+                android:id="@+id/sycs"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:layout_marginRight="20dp"
+                android:text="@string/xl_rc"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+              />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.example.roundprogressbar.RoundProgressBar01
+            android:id="@+id/roundProgressBar_01"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            custom_progress:roundColor="#3300d1d1"
+            custom_progress:roundProgressColor="@color/pColor"
+            custom_progress:textColor="#000000"
+            custom_progress:textIsDisplayable="true"
+            custom_progress:roundWidth="10dip"
+            custom_progress:textSize="35sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xl_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/xl_qx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:clickable="true"
+            android:textSize="19sp"
+            android:text="@string/xl_cc"
+            android:textColor="#436EEE"
+            />
+
+            <TextView
+                android:id="@+id/xl_qd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:clickable="true"
+                android:text="@string/xl_s"
+                android:textColor="#436EEE"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xl_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/xl_pause"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/pause"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/xl_start"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/start2x"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="@string/xl_t"
+                android:layout_marginLeft="25dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="@string/xl_r"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:text="@string/xl_c"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:id="@+id/main_start_btn"
+ />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        android:id="@+id/main_stop_btn"
+        android:layout_above="@+id/main_start_btn"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/xl_pickerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="300"
+    android:visibility="gone"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.example.roundprogressbar.Pickerview
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/second_view"
+        android:layout_marginLeft="25dp"
+        />
+        <com.example.roundprogressbar.Pickerview
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fs_view"
+            android:layout_centerHorizontal="true"/>
+        <com.example.roundprogressbar.Pickerview
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cs_view"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+</LinearLayout>
+    <!--<com.example.roundprogressbar.Pickerview-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/minute_view"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_alignLeft="@+id/main_stop_btn"-->
+        <!--android:layout_alignStart="@+id/main_stop_btn"-->
+        <!--android:layout_alignRight="@+id/main_stop_btn"-->
+        <!--android:layout_alignEnd="@+id/main_stop_btn" />-->
+
+        <LinearLayout
+            android:id="@+id/xl_b_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ss_b_text"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="21sp"
+                    android:textColor="@color/xl_text_color"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/fs_b_text"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="21sp"
+                    android:textColor="@color/xl_text_color"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/cs_b_text"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="21sp"
+                    android:textColor="@color/xl_text_color"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>

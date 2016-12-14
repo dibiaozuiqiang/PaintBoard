@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pc_text1">Let us finding the right set of muscles, it is in our private position. Please watch the flashing areas. These are pelvic floor muscles.</string>
+    <string name="pc_text2">Another way to identity the pelvic floor muscles is to stop halfway when urinating, hold for few seconds, then relax. If you can easy do it, then you are already know where pelvic floor muscles are.</string>
+    <string name="pc_text3">Another way to feel the muscles movement is to put your hands on buttock. when pelvic floor muscles tense, your hands will feel a slightly inward movement.</string>
+    <string name="pc_text4">You can significantly improve your pelvic floor muscles strength with help of XFT-0010 this device.</string>
+    <string name="chaxun_text">Find PF</string>
+    <string name="xunlian_text"> Training</string>
+    <string name="useS_text">Use Step</string>
+    <string name="us_text1">1.Open the battery compartment on the back of the trainer and insert three AAA batteries.</string>
+    <string name="us_text2">2.Connect the probe to the trainer.</string>
+    <string name="us_text3">3.Hold the end of the probe with tube, gently insert into the vagina. It is appropriate when the convex part touches the labia. You can also adjust the angle and depth of insertion. (Apply appropriate water-soluble lubricant to the interface of the probe if it is needed, such as: Durex or KY lubricant)</string>
+    <string name="us_text4">4.Turn on the device by pressing the power button for 1 second.</string>
+    <string name="us_text5">5.When entering the mode selection interface, the device will inflate the probe automatically. Please begin test or training after the inflation is completed.</string>
+    <string name="us_text6">6.Test mode: User should tense or relax the pelvic musle according to the guide of screen or voice prompt. After the test, the screen will show the current pelvic strenth level.</string>
+    <string name="us_text7">Training mode: User can exercise according to other Kegel exercise Apps if needed.</string>
+    <string name="pc_title">Looking for your PC muscle</string>
+    <string name="xl_title">Training guidance</string>
+    <string name="xl_rt">Rest Time</string>
+    <string name="xl_rc">Count</string>
+    <string name="xl_t">Tense(s)</string>
+    <string name="xl_r">Relax(s)</string>
+    <string name="xl_c">Counts</string>
+    <string name="xl_s">sure</string>
+    <string name="xl_cc">Cancel</string>
+    <string name="back_again">Then click one exit procedure</string>
+</resources>

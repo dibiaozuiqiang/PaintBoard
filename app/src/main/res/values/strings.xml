@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">XFT-0010</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pc_text1">我们现在认识一下你要锻炼的肌肉吧，它在人体最隐秘的部位，看到闪烁的地方了吗？这就是我们要训练的肌肉——盆底肌。</string>
+    <string name="pc_text2">还有一种简单的方法，在小便时尝试中途停止，忍耐几秒，然后放松。如果可以收放自如，这时候使用的肌肉就是盆底肌。</string>
+    <string name="pc_text3">还有一个辅助的办法让你来确认你的盆底肌运动。把双手放在臀部，收缩盆地肌，有没有感觉到双手会微微向内移动？</string>
+    <string name="pc_text4">现在可以使用XFT－0010的产品来做盆底肌的恢复运动，从而改善盆底肌群的肌力和反应速度。</string>
+    <string name="us_text1">1.打开主机背后的电池盖，装入3节7号电池。</string>
+    <string name="us_text2">2.连接腔内探头与主机。</string>
+    <string name="us_text3">3.用手握住腔内探头的带导线的一端，轻轻地将腔内探头插入阴道，插入的位置以探头的外凸缘部分接触到阴唇时为宜。也可以根据需要调整插入的角度和深度（可以根据实际需要在腔内探头表面涂抹适量符合要求的水溶性人体润滑剂，比如：杜蕾斯或KY水溶性人体润滑剂）。</string>
+    <string name="us_text4">4.开机，按开/关键1秒后开机。</string>
+    <string name="us_text5">5.开机进入模式选择界面，进行模式选择后主机会自动对腔内探头充气，充气完成后进行相应模式（测试模式和训练模式）的训练。</string>
+    <string name="us_text6">6.测试模式：用户可以跟随主机屏幕图标及声音提示做盆底肌测试，测试完成后主机会给出用户盆底肌目前可以达到的肌力级别。</string>
+    <string name="us_text7">训练模式：用户可以根据自己的需要连同其他软件进行盆底肌训练。</string>
+    <string name="chaxun_text">寻找盆底肌</string>
+    <string name="xunlian_text">训练</string>
+    <string name="useS_text">使用步骤</string>
+    <string name="pc_title">寻找您的PC肌</string>
+    <string name="xl_title">训练指导</string>
+    <string name="xl_rt">剩余时间</string>
+    <string name="xl_rc">剩余次数</string>
+    <string name="xl_t">收缩时间(s)</string>
+    <string name="xl_r">放松时间(s)</string>
+    <string name="xl_c">次数</string>
+    <string name="xl_s">确定</string>
+    <string name="xl_cc">取消</string>
+    <string name="back_again">再按一次退出程序</string>
+</resources>
